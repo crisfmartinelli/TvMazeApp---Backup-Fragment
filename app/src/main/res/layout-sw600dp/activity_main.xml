@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="unibratec.edu.br.tvmazeapp.MainActivity">
+    
+    <fragment
+        android:id="@+id/fragment_list_show"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:name="unibratec.edu.br.tvmazeapp.fragment.ShowListFragment"
+        />
+
+    <FrameLayout
+        android:id="@+id/content_show_detail"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        />
+
+</LinearLayout>
